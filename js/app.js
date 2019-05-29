@@ -1,0 +1,8 @@
+var barrager = require('../module/barrager')
+var popup = require('../module/popup')
+var generate = require('../module/generate')
+var copy = require('../module/copy')
+barrager()
+popup()
+generate()
+copy()

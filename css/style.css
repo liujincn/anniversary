@@ -1,0 +1,147 @@
+*{ margin: 0; padding: 0;}
+h1, h2, h3, h4 , h5 { font-weight: normal; font-size: 100% }
+li { list-style: none; }
+input,select { outline: none;border: none}
+table{border-collapse: collapse}
+img{border:none}
+html{-webkit-font-smoothing:antialiased;-webkit-overflow-scrolling:touch;-moz-overflow-scrolling:touch;-o-overflow-scrolling:touch;overflow-scrolling:touch}
+body,html{background: #000;font-family:"Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica,"BBAlpha Sans",sans-serif;font-size:.24rem;width:100%;margin:0 auto;}
+body{ background: url("../img/body.jpg") repeat-y;background-size:100%;}
+*{padding:0;margin:0;text-decoration:none;-webkit-tap-highlight-color:transparent}
+a { outline: none; color: #000;text-underline: none }
+a:hover { text-underline: none}
+.clear::after { display: block; content: ""; line-height: 0; clear: both; visibility: hidden; font-size: 0; }
+.clear { *zoom: 1;clear: both;}
+.pr{ position: relative}
+.pa{ position: absolute}
+/* header*/
+.logo{ background: url("../img/logo.png") no-repeat; width: 1.55rem; height: 1.4rem; background-size:100%;top:0.4rem; left: 50%; margin-left:-.775rem; text-indent: -999rem }
+.title_video{ bottom: 0; margin-left: -3.48rem; left: 50%}
+/* video*/
+.video{ text-align: center; margin-top: .28rem}
+/* prize*/
+.prize{ margin-top: .38rem}
+.prize img{ margin-top: .2rem}
+.prize h2{ text-align: center; font-size: .3rem; color: #dcbf7d; line-height:1rem }
+.title_prize{top: 0; margin-left: -3.465rem; left: 50%}
+.details{ text-align: center}
+.details a{ text-indent: -999rem;}
+
+/*signin */
+.signin{ margin-top: .4rem; text-align: center}
+.signin p{ margin:.3rem auto .3rem;  height: .6rem; color: #130e1d; font-size: .24rem; background: #dcbf7c; line-height: .6rem; border: .02rem solid #130e1d;
+    box-shadow: 0 0 0 .02rem #dcbf7c;
+}
+.signin h2{ font-size: .3rem; color: #d9c38f; line-height: 200%}
+.signin h2 span { color: #ff4c4c}
+.signin p.received{ background: #acacac;box-shadow: 0 0 0 .02rem #acacac;}
+.title_signin{ margin-bottom: .2rem}
+.signin img{ width: 100%}
+.signin_box-top li{ display: inline-block; width: 30%; margin: 0 1%}
+.signin_box-btm li{ display: inline-block; width: 46%; margin: 0 1%}
+.signin_btn a{  text-indent: -999rem}
+/* generous_gift */
+.generous_gift{ text-align: center; margin-top: .5rem}
+.title_generous{ margin-bottom: .44rem}
+.generous_gift h2{ color:#d9c38f; font-size: .3rem; padding: .3rem 0}
+.generous_gift h2 span{ color: #ff4c4c}
+.generous_gift li{width: 46%; margin: 0 1%; display: inline-block}
+.generous_gift li img{ width: 100%}
+.generous_gift .icon-generous_gift{ color: #fff; line-height: .88rem; text-align: center;text-shadow:.02rem 0rem 0rem #3b1702}
+.generous_gift .icon-generous_gift span{ color: #ffd658}
+.g_g_receive{ margin:.3rem auto .3rem;  height: .6rem; color: #130e1d; font-size: .24rem; background: #dcbf7c; line-height: .6rem; border: .02rem solid #130e1d;
+    box-shadow: 0 0 0 .02rem #dcbf7c;
+}
+.notyet{background: #acacac;box-shadow: 0 0 0 .02rem #acacac;}
+/* blessing*/
+.title_blessing{ margin-top: .4rem}
+.blessing{ background: url("../img/blessing_bg.png") no-repeat; width: 100%; height: 11rem; background-size: 100% 11rem; text-align: center}
+.title_blessing{}
+/* barrage*/
+
+.barrage_list {
+    width: 86%;
+    height: 4.5rem;
+    margin: 1rem auto 0;
+}
+
+.barrage_list ul {
+    position:  relative;
+    width: 100%;
+    overflow: hidden;
+    height: 4.5rem;
+}
+
+.barrage_list li {
+    position: absolute;
+     background: rgba(0,0,0,.7);
+     height: .42rem;
+     padding: 0 .2rem;
+     line-height: .42rem;
+     border-radius: .1rem;
+    white-space : nowrap;
+
+}
+/*join */
+.join{ width: 80%; margin: 0 auto; text-align: left}
+.join li{ color: #fff; font-size: .24rem; margin-bottom: .05rem}
+.join li span{ margin-left: .1rem}
+.join h2{font-size: .3rem; padding-bottom: .1rem; text-align: center}
+.join h2 span{ color: #fbed0d}
+.inp{ border: #331d00 .01rem solid; height: .5rem; line-height: .5rem; padding: 0 .2rem; font-size: .24rem}
+.inp_name{ width: 30%}
+.inp_tel{ width: 50%}
+.inp_ble{ width: 75%}
+.join p{ text-align: center}
+.join p input{ border: none}
+.btn_ble{ margin-top: .8rem}
+.btn_ble a{ text-indent: -999rem;}
+/* mounts */
+.mounts{ width: 100%; background: url("../img/mounts_bg.png") no-repeat; height: 6.48rem; background-size: 100% 6.48rem; text-align: center}
+.title_mounts{margin-top:.3rem}
+.mounts img{ margin-top: 1rem}
+.title_mounts_name{ left: 1rem;top:1.5rem}
+/* activity  */
+.activity{ text-align: center}
+.activity img{ margin-bottom: .2rem}
+.title_activity{ margin: .55rem auto}
+/* down */
+.down{ left: 50%; margin-left: -3.19rem}
+.down a{ text-indent: -999rem; display: inline-block; width: 6.38rem; height: 1.74rem}
+footer{ text-align: center; color: #434e61; font-size: .22rem; height: 1rem ; line-height: 1rem; background: #06050a}
+
+/* popup*/
+.mask{ width:100%; background:#000; position:absolute; top:0px; left:0px; z-index:10000000; display:none; }
+.tck { position:fixed;z-index: 103;display: none; z-index:1000000001; font-size: .15rem; color: #d7c18d}
+.close{ position: absolute; right: 0.2rem;top:.2rem; z-index: 1000}
+.dialog { background: url("../img/dialog.png") no-repeat; width: 6.49rem; height: 3.98rem; background-size: 6.49rem 3.98rem;}
+.dialog .content{ padding: 1rem .3rem;  font-size: .24rem ;line-height: 180%}
+.copy-btn{font-style: normal; color: #ff4c4c; margin-left: .2rem; text-decoration: underline}
+/* rule*/
+.rule-dialog{ background: url("../img/rule_bg.png") no-repeat; width:6.5rem; height:7.51rem; background-size: 6.5rem 7.51rem  }
+.rule-dialog .content{ padding: 1.2rem 2rem 0rem .7rem}
+.rule-dialog .content li{ position: relative; line-height: 180%;font-size: .22rem;}
+.rule-dialog .content li span{ position: absolute; left: -.5rem; width: .4rem; height: .4rem; border-radius: 0.2rem; background: #d7c18d; line-height: .4rem; color: #100e19; text-align: center}
+.rule-dialog .content li strong{ color: #ff4c4c}
+/* prize*/
+.prize-dialog{ background: url("../img/prize_bg.png") no-repeat; width: 6.5rem; height: 7.51rem; background-size: 6.5rem 7.51rem}
+.prize-dialog .content{ text-align: center; padding-top: 3.2rem; font-size: .24rem; padding-left: .1rem}
+.prize-dialog .content li{ display: inline-block; text-align: left; margin-left: .1rem; width: 31%; line-height: 150%}
+/* gitfs */
+
+/* record */
+.record-dialog .content{ padding-top: .2rem; line-height: 160%}
+.record-dialog .content li{ display: inline-block; width: 46%}
+/* submit */
+.submit-dialog .content{ text-align: center; padding: 1rem .2rem; line-height: 250%}
+.submit-dialog .content a{ color: #ff4c4c; text-decoration: underline}
+/* generate */
+.generate-dialog { width: 6.5rem; height: 8.8rem }
+.generate-dialog .cutting{width: 6.5rem; height: 8.8rem;top:0; left: 0; z-index: 10;overflow: hidden}
+.generate-dialog img{ width: 100%; }
+.generate-dialog .portrait{ width:1.2rem; height: 1.2rem; border-radius: 50%;top: .3rem; left: 50%; margin-left: -.6rem}
+.generate-dialog .portrait img{ width: 100%;border-radius: 50%; border: #fff .03rem  solid}
+.generate-dialog .text{ top: 7.5rem; width: 72%; color: #ffa26b; left: .2rem}
+.generate-dialog .qr{top:7.2rem; width: 1.32rem; height: 1.32rem; right: .2rem}
+/* cutting*/
+.cutting_img{  top:0; left: 0; z-index: 100}

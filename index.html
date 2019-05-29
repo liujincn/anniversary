@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>远征周年庆烽火重燃 兄弟集结</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <script>
+        !function () {
+            function a() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 720 / 16 * 10000 + "%"
+            }
+
+            var b = null;
+            window.addEventListener("resize", function () {
+                clearTimeout(b);
+                b = setTimeout(a, 300)
+            }, !1);
+            a()
+        }(window);
+    </script>
+    <script src="https://css.ssl.q1.com/jquery/jquery-1.11.1.min.js?v=20170506"></script>
+    <script src="https://yzsy.q1.com/js/request_yzsy.js?v=1" type="text/javascript"></script>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="dev/app.css">
+    <!-- endinject -->
+
+</head>
+<body>
+<header class="pr"><img src="img/top.jpg" width="100%">
+    <div class="logo pa">远征手游</div>
+    <div class="title_video icon-title_video pa"></div>
+</header>
+<section class="video">
+    <div class="icon-video_bg">
+        <video width="94%" height="100%" autoplay muted poster="img/poster.jpg">
+            <source src="https://sres.q1.com/flv/yzsy/main/yzsy_main_m_jcyt.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+<section class="prize">
+    <div class="title_prize icon-title_prize pr"></div>
+    <img src="img/prize.jpg" width="100%">
+    <h2>参与祝福并分享至朋友圈即有机会获取大奖</h2>
+    <div class="details">
+        <a href="javascript:popup('.prize-dialog')" class="icon-btn_preview" onClick="addWebClick('所有奖品预览');">所有奖品预览</a>
+        <a href="javascript:popup('.rule-dialog')" class="icon-btn_details" onClick="addWebClick('活动规则详情');">活动规则详情</a>
+    </div>
+</section>
+<section class="signin">
+    <div class="title_signin icon-title_signin"></div>
+    <div class="signin_box-top">
+        <ul>
+            <li><img src="img/sing_prize1.png">
+                <p class="received" onClick="addWebClick('领取签到1次奖励');">已领取</p></li>
+            <li><img src="img/sing_prize2.png">
+                <p onClick="addWebClick('领取签到2次奖励');popup('.gifts-dialog')">点击领取</p></li>
+            <li><img src="img/sing_prize3.png">
+                <p onClick="addWebClick('领取签到3次奖励');popup('.gifts-dialog')">点击领取</p></li>
+        </ul>
+    </div>
+    <div class="signin_box-btm">
+        <ul>
+            <li><img src="img/sing_prize4.png">
+                <p onClick="addWebClick('领取签到4次奖励');popup('.gifts-dialog')">点击领取</p></li>
+            <li><img src="img/sing_prize5.png">
+                <p onClick="addWebClick('领取签到5次奖励');popup('.gifts-dialog')">点击领取</p></li>
+        </ul>
+    </div>
+    <h2>当前您已签到<span>5</span>天</h2>
+    <div class="signin_btn">
+        <a class="icon-btn_signin" href="javascript:;" onClick="addWebClick('立即签到');">立即签到</a>
+        <!--<a class="icon-btn_checkin" href="javascript:;">已签到</a>-->
+    </div>
+</section>
+<section class="generous_gift">
+    <div class="title_generous icon-title_generousgift"></div>
+    <h2>目前人气值：<span>999999</span></h2>
+    <ul>
+        <li><img src="img/generousgift1.png">
+            <p class="icon-generous_gift">人气值达到<span>10000</span>可解锁</p>
+            <p class="g_g_receive notyet">未达到人气值</p>
+        </li>
+        <li><img src="img/generousgift2.png">
+            <p class="icon-generous_gift">人气值达到<span>50000</span>可解锁</p>
+            <p class="g_g_receive notyet">已领取</p>
+        </li>
+        <li><img src="img/generousgift3.png">
+            <p class="icon-generous_gift">人气值达到<span>100000</span>可解锁</p>
+            <p class="g_g_receive" onClick="addWebClick('领取人气值100000大礼');popup('.gifts-dialog')">点击领取</p>
+        </li>
+        <li><img src="img/generousgift4.png">
+            <p class="icon-generous_gift">人气值达到<span>200000</span>可解锁</p>
+            <p class="g_g_receive" onClick="addWebClick('领取人气值200000大礼');popup('.gifts-dialog')">点击领取</p>
+        </li>
+        <li><img src="img/generousgift5.png">
+            <p class="icon-generous_gift">人气值达到<span>300000</span>可解锁</p>
+            <p class="g_g_receive" onClick="addWebClick('领取人气值300000大礼');popup('.gifts-dialog')">点击领取</p>
+        </li>
+        <li><img src="img/generousgift6.png">
+            <p class="icon-generous_gift">人气值达到<span>500000</span>可解锁</p>
+            <p class="g_g_receive" onClick="addWebClick('领取人气值500000大礼');popup('.gifts-dialog')">点击领取</p>
+        </li>
+    </ul>
+</section>
+<section class="blessing">
+    <div class="title_blessing icon-title_blessing"></div>
+    <div class="barrage_list">
+        <ul>
+        </ul>
+    </div>
+    <div class="join">
+        <h2>当前参与周年庆的人数：<span>5201314人</span></h2>
+        <ul>
+            <li>角色名：<input class="inp inp_name" name="username" id="username" type="text"
+                           value=""><span>游戏内可以复制角色名</span></li>
+            <li>手机号：<input class="inp inp_tel" type="number" name="usertel" id="usertel" value=""></li>
+            <li>祝福语：<input class="inp inp_ble" type="text" name="userble" id="userble" value=""></li>
+        </ul>
+        <p><input onClick="addWebClick('弹幕提交');popup('.submit-dialog')" type="button" class="icon-btn_submit"
+                  value="提交"></p>
+    </div>
+    <div class="btn_ble">
+        <a class="icon-btn_generate" href="javascript:cutting()" onClick="addWebClick('生成祝福专属页');">生成祝福专属页</a>
+        <a class="icon-btn_record" href="javascript:popup('.record-dialog')" onClick="addWebClick('领取记录');">领取记录</a>
+    </div>
+</section>
+<section class="mounts pr">
+    <div class="title_mounts icon-title_mounts">
+        <img src="img/mounts.gif" width="84%">
+        <div class="title_mounts_name icon-mounts_name pa"></div>
+    </div>
+
+</section>
+<section class="activity">
+    <div class="title_activity icon-title_activity"></div>
+    <img src="img/demo.jpg" width="90%">
+    <img src="img/demo2.jpg" width="90%">
+</section>
+<section class="down icon-down pr">
+    <script type="text/javascript">ShowDownLoad("下载_远征手游_" + terminal + "_下载_bottom", "立即下载")</script>
+</section>
+<footer>深圳冰川网络股份有限公司 版权所有</footer>
+<div class="mask"></div>
+<!-- 活动规则 -->
+<div class="tck rule-dialog">
+    <div class="close icon-close"></div>
+    <div class="content">
+        <ul>
+            <li><span>01</span>每日签到都可以领取对应的签到礼包， 同时可以领取累计签到礼包；</li>
+            <li><span>02</span>人气解锁礼包每达到解锁条件就可以领 取，每天签到可以助涨人气值；</li>
+            <li><span>03</span> 每次领取到的奖励均为礼包激活码，可 在领取记录查看；</li>
+            <li><span>04</span>周年庆大奖参与方法：填写祝福-生成个人祝福专属页-分享至朋友圈；</li>
+            <li><span>05</span>周年庆大奖开奖方式：公众号后台随机抽送，活动结束后公布获奖名单，获奖者凭借个人祝福专属页+朋友圈分享截图领取幸运大奖；</li>
+            <li>为了方便领取幸运大奖，<strong>大家填写祝福语的时候请务必准确填写个人的手机号</strong></li>
+            <li><span>06</span> 一个微信用户只能参与一次祝福活动，领取相关的礼包奖励；</li>
+        </ul>
+    </div>
+    <div class="close"></div>
+</div>
+<!-- 所有奖品展示 -->
+<div class="tck prize-dialog">
+    <div class="close icon-close"></div>
+    <div class="content">
+        <ul>
+            <li>沧海蛟龙(永久)<br/>
+                幻彩琉璃(永久)<br/>
+                海滨假日(永久)<br/>
+                天启者称号(30天)<br/>
+                12888元宝<br/>
+                6级宝石箱x1<br/>
+                紫色英灵宝箱x1<br/>
+                粉色柔情*666
+            </li>
+            <li>
+                九五至尊(永久)<br/>
+                紫灵仙羽(永久)<br/>
+                星光(永久)<br/>
+                天启者称号(30天)<br/>
+                18888元宝<br/>
+                7级宝石箱x1<br/>
+                橙色英灵宝箱x1<br/>
+                粉色柔情*999
+            </li>
+            <li>
+                灵猫(永久)<br/>
+                紫羽天翔(永久)<br/>
+                斩日红尘(永久)<br/>
+                天启者称号(30天)<br/>
+                8888元宝<br/>
+                5级宝石箱x1<br/>
+                蓝色英灵宝箱x1<br/>
+                粉色柔情*520
+            </li>
+
+        </ul>
+    </div>
+    <div class="close"></div>
+</div>
+<!-- 签到/人气礼包 -->
+<div class="tck dialog gifts-dialog">
+    <div class="close icon-close"></div>
+    <div class="content">
+        <p>您已领取签到礼包，</p>
+        <p>礼包激活码是：<!--<span class="code">32143hjk4231vdsa</span> <em class="copy-btn" data-clipboard-target=".code">复制</em>--></p>
+        <p>礼包内容包括：重铸石*5；强化石*5；1万银两*5</p>
+        <p> 激活截止时间为2019/7/31，请尽快登录游戏激活领取</p>
+    </div>
+</div>
+<!-- 领取记录 -->
+<div class="tck dialog record-dialog">
+    <div class="close icon-close"></div>
+    <div class="content">
+        <div class="icon-title_record"></div>
+        <h2>您已获得礼包码：</h2>
+        <ul>
+            <li><span class="code1">11111111</span> <em class="copy-btn" data-clipboard-target=".code1">复制</em></li>
+            <li><span class="code2">11111111</span> <em class="copy-btn" data-clipboard-target=".code2">复制</em></li>
+            <li><span class="code3">11111111</span> <em class="copy-btn" data-clipboard-target=".code3">复制</em></li>
+            <li><span class="code4">11111111</span> <em class="copy-btn" data-clipboard-target=".code4">复制</em></li>
+            <li><span class="code5">11111111</span> <em class="copy-btn" data-clipboard-target=".code5">复制</em></li>
+            <li><span class="code6">11111111</span> <em class="copy-btn" data-clipboard-target=".code6">复制</em></li>
+            <li><span class="code7">11111111</span> <em class="copy-btn" data-clipboard-target=".code7">复制</em></li>
+            <li><span class="code8">11111111</span> <em class="copy-btn" data-clipboard-target=".code8">复制</em></li>
+            <li><span class="code9">11111111</span> <em class="copy-btn" data-clipboard-target=".code8">复制</em></li>
+            <li><span class="code10">11111111</span> <em class="copy-btn" data-clipboard-target=".code10">复制</em></li>
+            <li><span class="code11">11111111</span> <em class="copy-btn" data-clipboard-target=".code11">复制</em></li>
+        </ul>
+        <p>激活截止时间为2019/7/31，请尽快登录游戏激活领取</p>
+    </div>
+</div>
+<!-- 提交祝福语 -->
+<div class="tck dialog submit-dialog">
+    <div class="close icon-close"></div>
+    <div class="content">
+        <p>远征手游感谢您一路的陪伴
+        <p><a href="javascript:cutting()">点击生成专属祝福页</a>分享至朋友圈即有机会获取全部大奖</p>
+    </div>
+</div>
+<!-- 生成 -->
+<div class="tck generate-dialog">
+    <div class="close icon-close"></div>
+    <div class="cutting pr">
+        <img src="./img/generate.jpg" class="pa">
+        <div class="portrait pa"><img src="img/portrait.jpg"></div>
+        <div class="text pa">
+            <strong>这里假装真的人名：</strong>这是一段很长很长很长
+            的祝福语这是一段很长的祝福语这是一段很
+            长很长很长的祝福语这是一段很长的祝福语！
+        </div>
+        <div class="qr pa"><img src="img/qrcode.jpg"></div>
+    </div>
+    <img src="" class="cutting_img pa">
+    <!--<div class="tips"><em>●</em>长按保存相册并分享到朋友圈</div>-->
+</div>
+
+
+<!-- inject:js -->
+<script src="dev/common.js"></script>
+<script src="dev/main.js"></script>
+<!-- endinject -->
+<script type="text/javascript" src="https://css2.ssl.q1.com/yzsy/js/statis.js?v=2"></script>
+</body>
+</html>
